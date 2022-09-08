@@ -36,5 +36,16 @@ public class d123 {
 		int ordinal = today.ordinal();
 		System.out.println(ordinal);
 		
+		Week day1 = Week.MON;
+		Week day2 = Week.WED;
+		System.out.println(day1.compareTo(day2));
+		System.out.println(day2.compareTo(day1));
+		
+		String strDay = args[0];
+		System.out.println("this is strDay:" + strDay);
+		
+		Week[] days = Week.values();
+		for(Week day : days)
+			System.out.println(day);
 	}
 }

@@ -2,11 +2,11 @@ package ch10.lecture;
 
 import java.util.Arrays;
 
-public class flag {
+public class flag { //중복 제거 아이디어
 	public static void main(String[] args) {
 		
-		
-		int[] a = {1,5,3,4,6,8,9};
+		// [0,1,0,1,1,1,1,0,1,2,0]
+		int[] a = {1,5,3,4,6,8,9,9};
 		int[] b = {2,4,8,9,10,5};
 		String str = "6 3 2 5 6 6 6 6 6 5 5";
 		String ch = "5";
