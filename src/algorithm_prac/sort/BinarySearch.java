@@ -1,4 +1,4 @@
-package algorithm_prac;
+package algorithm_prac.sort;
 
 public class BinarySearch {
 	static int[] arr = { 1, 3, 5, 7, 8, 10, 20, 35, 99, 100 };

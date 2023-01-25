@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 
 
-public class Queue {
+public class Queue2 {
 	public static void main(String[] args) {
 		String skill = "CBD";
 		int answer = 0;

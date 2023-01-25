@@ -8,8 +8,8 @@ public class C04OutputStream {
 	public static void main(String[] args) throws IOException {
 		
 		String originalFileName = 
-				"C:\\Users\\user\\Desktop\\output\\사진.jfif";
-		String targetFileName = "C:\\Users\\user\\Desktop\\output\\사진2.jfif";
+				"C:\\Users\\user\\Desktop\\output\\picture.jfif";
+		String targetFileName = "C:\\Users\\user\\Desktop\\output\\사진10.jfif";
 		
 		FileInputStream fis = new FileInputStream(originalFileName);
 		FileOutputStream fos = new FileOutputStream(targetFileName);
